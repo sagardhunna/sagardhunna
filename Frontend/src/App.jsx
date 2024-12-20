@@ -11,7 +11,7 @@ function App() {
   return (
     <div>
       <Header />
-      <h1 style={{margin:'40px'}}>My Projects</h1>
+      <h1 style={{margin:'40px', paddingTop:'20px'}}>My Projects</h1>
       <Projects />
     </div>
   )

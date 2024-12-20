@@ -7,42 +7,31 @@ import Card from 'react-bootstrap/Card';
 const Projects = () => {
     return (
         <div className='projectCards'>
-            <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="holder.js/100px180" />
-                <Card.Body>
+            <div className='card-1'>
+                <Card style={{ width: '30rem', height: '30rem' }}>
                     <Card.Title>Card Title</Card.Title>
-                    <Card.Text>
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
-                    </Card.Text>
-                    <Button variant="primary">Go somewhere</Button>
-                </Card.Body>
-            </Card>
+                    {/*could add image in future if needed<Card.Img variant="top" src="holder.js/100px100" />*/}
+                    <Card.Body>
+                        <Card.Text>
+                            {/*Can put card text here if we want to*/}
+                        </Card.Text>
+                    </Card.Body>
+                </Card>
+                <Button variant="primary" style={{width: '20rem', marginTop:'10px'}}>Go somewhere</Button>
+            </div>
 
-            <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="holder.js/100px180" />
-                <Card.Body>
+            <div className='card-2'>
+                <Card style={{ width: '30rem', height: '30rem' }}>
                     <Card.Title>Card Title</Card.Title>
-                    <Card.Text>
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
-                    </Card.Text>
-                    <Button variant="primary">Go somewhere</Button>
-                </Card.Body>
-            </Card>
-
-            <Card style={{ width: '18rem' }}>
-                <Card.Img variant="top" src="holder.js/100px180" />
-                <Card.Body>
-                    <Card.Title>Card Title</Card.Title>
-                    <Card.Text>
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
-                    </Card.Text>
-                    <Button variant="primary">Go somewhere</Button>
-                </Card.Body>
-            </Card>            
-
+                    {/*could add image in future if needed<Card.Img variant="top" src="holder.js/100px100" />*/}
+                    <Card.Body>
+                        <Card.Text>
+                            {/*Can put card text here if we want to*/}
+                        </Card.Text>
+                    </Card.Body>
+                </Card>
+                <Button variant="primary" style={{width: '20rem', marginTop:'10px'}}>Go somewhere</Button>
+            </div>      
         </div>
     )
 

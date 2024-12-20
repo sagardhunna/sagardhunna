@@ -1,5 +1,5 @@
 #root {
-  max-width: 1920;
+  max-width: 1920; /* changed to 1920 because otherwise it was not taking the full screen */
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
