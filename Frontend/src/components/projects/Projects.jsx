@@ -9,7 +9,7 @@ const Projects = () => {
         <div className='projectCards'>
             <div className='card-1'>
                 <Card style={{ width: '30rem', height: '30rem' }}>
-                    <Card.Title>Card Title</Card.Title>
+                    <Card.Title>Project 1 Name</Card.Title>
                     {/*could add image in future if needed<Card.Img variant="top" src="holder.js/100px100" />*/}
                     <Card.Body>
                         <Card.Text>
@@ -22,7 +22,7 @@ const Projects = () => {
 
             <div className='card-2'>
                 <Card style={{ width: '30rem', height: '30rem' }}>
-                    <Card.Title>Card Title</Card.Title>
+                    <Card.Title>Project 2 Name</Card.Title>
                     {/*could add image in future if needed<Card.Img variant="top" src="holder.js/100px100" />*/}
                     <Card.Body>
                         <Card.Text>
