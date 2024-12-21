@@ -20,4 +20,11 @@
     height: 3rem;
     margin: 10px;
     background-color: #EEE9DA;
+    
+}
+
+.project1Image {
+    border: solid;
+    margin: -4px;
+    background-color: #7CF5FF;
 }
