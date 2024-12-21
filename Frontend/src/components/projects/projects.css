@@ -8,3 +8,16 @@
 .card {
     margin: 20px;
 }
+
+.card-styling {
+    background-color: #93BFCF;
+    padding: 10px;
+    border: solid;
+}
+
+.goSomewhereButton {
+    width: 20rem;
+    height: 3rem;
+    margin: 10px;
+    background-color: #EEE9DA;
+}

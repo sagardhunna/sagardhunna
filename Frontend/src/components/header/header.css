@@ -3,5 +3,5 @@ div {
 }
 
 .custom-navbar {
-    background-color: #BCCCDC !important; /* Needed to use !important to overwrite react-bootstrap code*/
+    background-color: #93BFCF !important; /* Needed to use !important to overwrite react-bootstrap code*/
 }

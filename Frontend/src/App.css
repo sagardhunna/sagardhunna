@@ -40,3 +40,18 @@
 .read-the-docs {
   color: #888;
 }
+
+
+@font-face { /* Allowed me to import a custom font */
+  font-family: 'BubbleGums';
+  src: url('/assets/BUBBLEGUMS.TTF') format('truetype'); 
+} 
+
+h1 {
+   font-family: BubbleGums, sans-serif; /* sans-serif is our back up font */
+   margin: 30px;
+   padding-top: 20px;
+   margin-bottom: 50px;
+   font-size: 60px;
+   color: #EEE9DA;
+}
