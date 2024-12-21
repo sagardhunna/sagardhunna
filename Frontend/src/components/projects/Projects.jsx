@@ -15,7 +15,7 @@ const Projects = () => {
                     <div className='project1Image'>
                         <Card.Img 
                             variant="top" 
-                            src="src/assets/AlarmImage@3x.png" 
+                            src="/assets/AlarmImage@3x.png" 
                         />
                     </div>
                     <Card.Body>
