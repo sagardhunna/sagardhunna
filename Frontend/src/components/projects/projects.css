@@ -5,8 +5,9 @@
     justify-content: space-around;
 }
 
+
 .card {
-    margin: 20px;
+    margin: 40px;
 }
 
 .card-styling {
@@ -25,6 +26,9 @@
 
 .project1Image {
     border: solid;
-    margin: -4px;
     background-color: #7CF5FF;
+    width: 105%;
+    height: 105%;
+    align-self: center;
+    margin-top: -10px;
 }

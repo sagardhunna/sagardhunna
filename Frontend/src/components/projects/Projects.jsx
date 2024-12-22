@@ -2,20 +2,20 @@ import React from 'react';
 import "./projects.css";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import Placeholder from 'react-bootstrap/Placeholder';
+import Col from 'react-bootstrap/Col';
 
 
 const Projects = () => {
     return (
         <div className='projectCards'>
             <div className='card-styling rounded'>
-                <h2 style={{margin:'10px'}}>RemindMe</h2>
-                <Card style={{ width: '30rem', height: '30rem', padding:'0px'}}>
-                    {/*could add image in future if needed<Card.Img variant="top" src="holder.js/100px100" />*/}
+                <h2 style={{ margin: '10px' }}>RemindMe</h2>
+                <Card style={{ width: '20rem', height: '20rem', padding: '0px' }}>
                     <div className='project1Image'>
-                        <Card.Img 
-                            variant="top" 
-                            src="/assets/AlarmImage@3x.png" 
+                        <Card.Img
+                            variant="top"
+                            src="/assets/AlarmImage@3x.png"
+                            style={{width: '100%', height: '100%'}}
                         />
                     </div>
                     <Card.Body>
@@ -28,10 +28,9 @@ const Projects = () => {
             </div>
 
             <div className='card-styling rounded'>
-                <h2 style={{margin:'10px'}}>PROJECTNAME</h2>
-                <Card style={{ width: '30rem', height: '30rem', padding: '0px' }}>
-                    {/*could add image in future if needed<Card.Img variant="top" src="holder.js/100px100" />*/}
-                    <div style={{border:'solid', margin:'-4px'}}>
+                <h2 style={{ margin: '10px' }}>PROJECTNAME</h2>
+                <Card style={{ width: '20rem', height: '20rem', padding: '0px' }}>
+                    <div className='project1Image' style={{width: '105%', height: '105%', alignSelf: 'center'}}>
                         <Card.Img variant="top" src="holder.js/400px400" />
                     </div>
                     <Card.Body>
