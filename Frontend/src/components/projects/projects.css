@@ -43,6 +43,10 @@
     width: 25rem;
 }
 
+.projectCard > h2 {
+    margin-top: 3%;
+}
+
 
 @media screen and (max-width: 600px) { /* when the width gets smaller, give a margin of 10% all around */
 
