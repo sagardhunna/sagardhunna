@@ -9,8 +9,8 @@ const EducationCards = () => {
             <Card>
                 <Card.Img variant="top" src="/assets/kennedyGrad.PNG" className='school-img' />
                 <Card.Body>
-                    <Card.Title style={{marginTop: '15%'}}>John F. Kennedy High School</Card.Title>
-                    <Card.Text style={{marginTop: '20%'}}>
+                    <Card.Title className='card-title'>John F. Kennedy High School</Card.Title>
+                    <Card.Text className='card-text'>
                         Attended: Aug. 2018 - May 2022
                         Degree: High School Diploma
                     </Card.Text>
@@ -31,8 +31,8 @@ const EducationCards = () => {
                 className='school-img' 
                 />
                 <Card.Body>
-                    <Card.Title style={{marginTop: '15%'}}>Cypress College</Card.Title>
-                    <Card.Text style={{marginTop: '20%'}}>
+                    <Card.Title className='card-title'>Cypress College</Card.Title>
+                    <Card.Text className='card-text'>
                         <br/>
                         Attended: Aug. 2022 - May 2024
                         Degree: A.S. for Transfer
@@ -50,8 +50,8 @@ const EducationCards = () => {
             <Card>
                 <Card.Img variant="top" src="/assets/uciIMG.JPG" className='school-img' />
                 <Card.Body>
-                    <Card.Title style={{marginTop: '15%'}}>University of California, Irvine</Card.Title>
-                    <Card.Text style={{marginTop: '20%'}}>
+                    <Card.Title className='card-title'>University of California, Irvine</Card.Title>
+                    <Card.Text className='card-text'>
                         Attended: Sep. 2024 - Current
                         Degree: B.S. Computer Science
                     </Card.Text>

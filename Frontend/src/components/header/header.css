@@ -1,7 +1,3 @@
-div {
-    font-family: 'roboto';
-}
-
 .custom-navbar {
     background-color: #93BFCF !important; /* Needed to use !important to overwrite react-bootstrap code*/
     text-shadow: 

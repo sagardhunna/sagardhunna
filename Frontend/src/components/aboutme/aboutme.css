@@ -19,6 +19,9 @@
     height: 100%;
     background-color: #93BFCF;
     border: solid;
+    font-family: LemandsBold, sans-serif;
+    font-size: 1.25rem;
+    padding: 0%;
 }
 
 @media screen and (max-width: 600px) {

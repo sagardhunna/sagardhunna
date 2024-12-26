@@ -32,6 +32,28 @@
     font-weight: normal;
 }
 
+.card-title {
+    margin-top: 10%;
+    color: white;
+    text-shadow: 
+    -1px -1px 0 #000, 
+    1px -1px 0 #000, 
+    -1px 1px 0 #000, 
+    1px 1px 0 #000;
+    font-size: 1.75rem;
+}
+
+.card-text {
+    margin-top: 10%;
+    color: white;
+    text-shadow: 
+    -1px -1px 0 #000, 
+    1px -1px 0 #000, 
+    -1px 1px 0 #000, 
+    1px 1px 0 #000;
+    font-size: 1.25rem;
+}
+
 @media screen and (max-width: 600px) {
     .card {
         margin: 5%;
