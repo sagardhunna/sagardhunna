@@ -20,3 +20,18 @@
     background-color: #93BFCF;
     border: solid;
 }
+
+@media screen and (max-width: 600px) {
+    .about-me {
+        flex-direction: row;
+        align-items: center;
+        width: 95vw;
+        margin-bottom: 130%;
+    }
+    .about-info {
+        width: 100%;
+    }
+    .personal-image {
+        width: 100%;
+    }
+}

@@ -26,16 +26,18 @@
     background-color: #7CF5FF;
     width: 100%;
     height: 100%;
-    margin: 7%;
     margin-top: -3%;
     pointer-events: none; /* prevents anyone from dragging my images */
 }
 
 .container {
-    width: 20rem; 
+    display: flex;
+    width: 100%; 
     height: 20rem;
     margin: 0px;
     padding: 0px;
+    align-items: center;
+    justify-content: center;
 }
 
 .projectCard {
@@ -58,6 +60,7 @@
     .projectCards {
         margin: 0px;
         width: 100%;
+        padding: 0%;
     }
 
     .projectCard {
@@ -69,7 +72,7 @@
     .project1Image {
         width: 95%;
         height: 95%;
-        margin: 2%;
+        margin: 0%;
     }
 
     .goSomewhereButton {
@@ -77,9 +80,5 @@
         height: 10%;
         margin: 5%;
     }
-    
 
-    .container {
-        margin: 4%;
-    }
 }
