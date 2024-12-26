@@ -1,0 +1,64 @@
+import React from 'react';
+import "./educationCards.css";
+import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
+
+const EducationCards = () => {
+    return (
+        <div className='educationCards'>
+            <Card>
+                <Card.Img variant="top" src="/assets/kennedyGrad.PNG" className='school-img' />
+                <Card.Body>
+                    <Card.Title style={{marginTop: '15%'}}>John F. Kennedy High School</Card.Title>
+                    <Card.Text style={{marginTop: '20%'}}>
+                        Attended: Aug. 2018 - May 2022
+                        Degree: High School Diploma
+                    </Card.Text>
+                </Card.Body>
+            </Card>
+
+            <Card.Img
+                className=' d-none d-md-block' /* makes arrow disappear on mobile */
+                variant="top"
+                src="/assets/rightArrow.png"
+                style={{ width: '10%', height: '10%', marginTop: '25%' }}
+            />
+
+            <Card>
+                <Card.Img 
+                variant="top" 
+                src="/assets/cypressCollegeGrad.JPG" 
+                className='school-img' 
+                />
+                <Card.Body>
+                    <Card.Title style={{marginTop: '15%'}}>Cypress College</Card.Title>
+                    <Card.Text style={{marginTop: '20%'}}>
+                        <br/>
+                        Attended: Aug. 2022 - May 2024
+                        Degree: A.S. for Transfer
+                    </Card.Text>
+                </Card.Body>
+            </Card>
+
+            <Card.Img className='flipped-arrow d-none d-md-block'
+                variant="top"
+                src="/assets/rightArrow.png"
+                style={{ width: '10%', height: '10%' }}
+
+            />
+
+            <Card>
+                <Card.Img variant="top" src="/assets/uciIMG.JPG" className='school-img' />
+                <Card.Body>
+                    <Card.Title style={{marginTop: '15%'}}>University of California, Irvine</Card.Title>
+                    <Card.Text style={{marginTop: '20%'}}>
+                        Attended: Sep. 2024 - Current
+                        Degree: B.S. Computer Science
+                    </Card.Text>
+                </Card.Body>
+            </Card>
+        </div>
+    )
+}
+
+export default EducationCards

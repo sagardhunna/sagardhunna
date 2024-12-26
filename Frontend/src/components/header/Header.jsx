@@ -11,7 +11,7 @@ const Header = () => {
         <div style={{ border: 'solid' }}>
             <Navbar expand="lg" className="bg-body-tertiary w-100 custom-navbar">
                 <Container fluid>
-                    <Navbar.Brand as={Link} to="/" className='title' style={{color: 'white'}}>Sagar's Website</Navbar.Brand> {/*When someone clicks my name it goes to home page*/}
+                    <Navbar.Brand as={Link} to="/" className='title' style={{color: 'white', marginLeft: '1%'}}>Sagar's Website</Navbar.Brand> {/*When someone clicks my name it goes to home page*/}
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto">

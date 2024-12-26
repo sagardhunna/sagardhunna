@@ -18,6 +18,7 @@
     margin-top: 5%;
     margin-bottom: 3%;
     background-color: #EEE9DA;    
+    text-shadow: none;
 }
 
 .project1Image {
@@ -45,6 +46,7 @@
 .projectCard > h2 {
     margin-top: 3%;
 }
+
 
 
 @media screen and (max-width: 600px) { /* when the width gets smaller, give a margin of 10% all around */

@@ -2,14 +2,13 @@ import React from 'react';
 import "./projects.css";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
-import Col from 'react-bootstrap/Col';
 
 
 const Projects = () => {
     return (
         <div className='projectCards'>
             <div className='card-styling rounded projectCard'>
-                <h2 style={{ marginBottom: '8%', color: 'white' }}>Remind Me</h2>
+                <h2 style={{ marginBottom: '8%', color: 'white', textShadow: '-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000' }}>Remind Me</h2>
                 <div className='container'>
                     <div className='project1Image'>
                         <Card.Img
@@ -23,7 +22,7 @@ const Projects = () => {
             </div>
 
             <div className='card-styling rounded projectCard'>
-                <h2 style={{ marginBottom: '8%', color: 'white' }}>In Progress...</h2>
+                <h2 style={{ marginBottom: '8%', color: 'white', textShadow: '-1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000' }}>In Progress...</h2>
                 <div className='container'>
                     <div className='project1Image'>
                         <Card.Img

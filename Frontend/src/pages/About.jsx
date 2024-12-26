@@ -1,8 +1,15 @@
+import EducationCards from "../components/EducationCards/EducationCards";
+import './about.css'
+import AboutMe from "../components/aboutme/AboutMe"
+
+
 function About() {
     return (
-      <div>
+      <div className="about-container">
         <h1>About Me</h1>
-        <p>This is the About page.</p>
+        <AboutMe />
+        <h1>Education History</h1>
+        <EducationCards />
       </div>
     )
   }

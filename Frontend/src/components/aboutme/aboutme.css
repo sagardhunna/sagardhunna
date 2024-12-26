@@ -1,0 +1,22 @@
+.about-me {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80vw;
+    height: 50vh;
+    text-align: center;
+    gap: 10%;
+  }
+
+.personal-image {
+    width: 45%;
+    height: 100%;
+    border: solid;
+    pointer-events: none;
+}
+
+.about-info {
+    width: 45%;
+    height: 100%;
+    background-color: #93BFCF;
+    border: solid;
+}
