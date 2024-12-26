@@ -1,4 +1,4 @@
-import EducationCards from "../components/educationCards/educationCards";
+import EducationCards from "../components/EducationCards/EducationCards";
 import './about.css'
 import AboutMe from "../components/aboutme/AboutMe"
 
