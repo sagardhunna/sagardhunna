@@ -16,6 +16,14 @@
     /* found the above off google to add shadow to my text */
   }
   
+@media screen and (max-width: 600px) {
+    .about-section {
+        margin-bottom: 40%;
+    }
+}
 
-  
-
+@media screen and (max-width: 400px) {
+    .about-section {
+        margin-bottom: 60%;
+    }
+}
