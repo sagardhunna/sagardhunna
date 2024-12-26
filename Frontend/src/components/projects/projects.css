@@ -39,7 +39,7 @@
 }
 
 .projectCard {
-    margin: 3%;
+    margin: 1%;
     width: 25rem;
 }
 
@@ -75,5 +75,6 @@
         width: 80%;
         height: 10%;
         margin: 5%;
+        font-family: LemandsBold, sans-serif;
     }
 }

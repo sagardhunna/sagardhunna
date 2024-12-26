@@ -19,21 +19,21 @@ const Projects = () => {
                         />
                     </div>
                 </div>
-                <Button className='goSomewhereButton border border-dark border-2' variant='light'>Go somewhere</Button>
+                <Button className='goSomewhereButton border border-dark border-2' variant='light'>Github.com/RemindMe</Button>
             </div>
 
             <div className='card-styling rounded projectCard'>
-                <h2 style={{ marginBottom: '8%' }}>PROJECTNAME</h2>
+                <h2 style={{ marginBottom: '8%' }}>In Progress...</h2>
                 <div className='container'>
                     <div className='project1Image'>
                         <Card.Img
                             variant="top"
-
+                            src="/assets/question-mark.jpg"
                             style={{ width: '100%', height: '100%' }}
                         />
                     </div>
                 </div>
-                <Button className='goSomewhereButton border border-dark border-2' variant='light'>Go somewhere</Button>
+                <Button className='goSomewhereButton border border-dark border-2' variant='light'>Github.com/InProgress...</Button>
             </div>
         </div>
     )

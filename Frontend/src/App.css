@@ -41,17 +41,33 @@
   color: #888;
 }
 
+* {
+  font-family: 'LemandsBold', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
 
 @font-face { /* Allowed me to import a custom font */
   font-family: 'BubbleGums';
   src: url('/assets/BUBBLEGUMS.TTF') format('truetype'); 
 } 
 
+@font-face {
+  font-family: 'FostherRegular';
+  src: url('/assets/FOSTHERREGULAR.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'LemandsBold';
+  src: url('/assets/LemandsBold.ttf') format('truetype');
+}
+
 h1 {
-   font-family: BubbleGums, sans-serif; /* sans-serif is our back up font */
+   font-family: FostherRegular, sans-serif; /* sans-serif is our back up font */
    margin: 3%;
    padding-top: 20px;
-   font-size: 60px;
+   font-size: 8rem;
    color: #EEE9DA;
 }
 
