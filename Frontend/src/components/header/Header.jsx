@@ -3,20 +3,22 @@ import "./header.css";
 import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
+import { Link } from 'react-router-dom';  // to link to the other pages
 
 
 const Header = () => {
     return (
-        <div style={{border:'solid'}}>
+        <div style={{ border: 'solid' }}>
             <Navbar expand="lg" className="bg-body-tertiary w-100 custom-navbar">
                 <Container fluid>
-                    <Navbar.Brand href="#home" className='title'>Sagar's Website</Navbar.Brand>
+                    <Navbar.Brand as={Link} to="/" className='title'>Sagar's Website</Navbar.Brand> {/*When someone clicks my name it goes to home page*/}
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto">
-                            <Nav.Link href="#about">About Me</Nav.Link>
-                            <Nav.Link href="#contact">Contact Me</Nav.Link>
-                            <Nav.Link href="/assets/Sagar_Dhunna_Resume.pdf" target="_blank" rel="noopener noreferrer">My Resume</Nav.Link>
+                            <Nav.Link as={Link} to="/home">Home</Nav.Link> {/* Link to Home */}
+                            <Nav.Link as={Link} to="/about">About Me</Nav.Link> {/* Link to About */}
+                            <Nav.Link as={Link} to="/contact">Contact Me</Nav.Link> {/* Link to Contact */}
+                            <Nav.Link href="/assets/Sagar_Dhunna_Resume.pdf" target="_blank" rel="noopener noreferrer">My Resume</Nav.Link> {/* Resume link */}
                             {/* important things to add when adding a link 
                             target=”_blank” ensures that the pdf is opened in a new tab
                             rel=”noopener noreferrer” provides security and prevents anyone from manipulating the page*/}

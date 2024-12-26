@@ -1,19 +1,27 @@
 import { useState } from 'react'
 import 'bootstrap/dist/css/bootstrap.min.css'
 import './App.css'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import About from './pages/About'
+import Contact from './pages/Contact'
+import Home from './pages/Home'
 import Header from './components/header/Header'
-import About from './components/about/About'
-import Projects from './components/projects/Projects'
+import NoPage from './pages/NoPage'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <div>
+    <Router>
       <Header />
-      <h1><b>My Projects</b></h1>
-      <Projects />
-    </div>
+      <Routes>
+        <Route index element={<Home />} />
+        <Route path="/home" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/contact" element={<Contact />} />
+        <Route path="*" element={<NoPage />} />
+      </Routes>
+    </Router>
   )
 }
 
