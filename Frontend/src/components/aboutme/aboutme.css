@@ -5,6 +5,7 @@
     height: 50vh;
     text-align: center;
     gap: 10%;
+    align-items: center;
   }
 
 .personal-image {
