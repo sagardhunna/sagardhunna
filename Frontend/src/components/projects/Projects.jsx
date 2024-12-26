@@ -9,7 +9,7 @@ const Projects = () => {
     return (
         <div className='projectCards'>
             <div className='card-styling rounded projectCard'>
-                <h2 style={{ marginBottom: '8%' }}>Remind Me</h2>
+                <h2 style={{ marginBottom: '8%', color: 'white' }}>Remind Me</h2>
                 <div className='container'>
                     <div className='project1Image'>
                         <Card.Img
@@ -23,7 +23,7 @@ const Projects = () => {
             </div>
 
             <div className='card-styling rounded projectCard'>
-                <h2 style={{ marginBottom: '8%' }}>In Progress...</h2>
+                <h2 style={{ marginBottom: '8%', color: 'white' }}>In Progress...</h2>
                 <div className='container'>
                     <div className='project1Image'>
                         <Card.Img

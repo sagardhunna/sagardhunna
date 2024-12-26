@@ -17,8 +17,7 @@
     height: 10%;
     margin-top: 5%;
     margin-bottom: 3%;
-    background-color: #EEE9DA;
-    
+    background-color: #EEE9DA;    
 }
 
 .project1Image {
@@ -75,6 +74,5 @@
         width: 80%;
         height: 10%;
         margin: 5%;
-        font-family: LemandsBold, sans-serif;
     }
 }
