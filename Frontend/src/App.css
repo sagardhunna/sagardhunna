@@ -49,9 +49,8 @@
 
 h1 {
    font-family: BubbleGums, sans-serif; /* sans-serif is our back up font */
-   margin: 30px;
+   margin: 3%;
    padding-top: 20px;
-   margin-bottom: 80px;
    font-size: 60px;
    color: #EEE9DA;
 }

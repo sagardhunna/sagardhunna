@@ -1,25 +1,22 @@
 .projectCards {
-    margin: 40px;
+    margin: 10%;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
-}
-
-
-.card {
-    margin: 40px;
+    margin-top: -1%;
 }
 
 .card-styling {
     background-color: #93BFCF;
-    padding: 10px;
+    padding: 1%;
     border: solid;
 }
 
 .goSomewhereButton {
-    width: 20rem;
-    height: 3rem;
-    margin: 10px;
+    width: 80%;
+    height: 10%;
+    margin-top: 5%;
+    margin-bottom: 3%;
     background-color: #EEE9DA;
     
 }
@@ -27,8 +24,52 @@
 .project1Image {
     border: solid;
     background-color: #7CF5FF;
-    width: 105%;
-    height: 105%;
-    align-self: center;
-    margin-top: -10px;
+    width: 100%;
+    height: 100%;
+    margin: 7%;
+    margin-top: -3%;
+    pointer-events: none; /* prevents anyone from dragging my images */
+}
+
+.container {
+    width: 20rem; 
+    height: 20rem;
+    margin: 0px;
+    padding: 0px;
+}
+
+.projectCard {
+    margin: 3%;
+    width: 25rem;
+}
+
+
+@media screen and (max-width: 600px) { /* when the width gets smaller, give a margin of 10% all around */
+
+    .projectCard > h2 {
+        margin-top: 5%;
+    }
+
+    .projectCards {
+        margin: 0px;
+        width: 100%;
+    }
+
+    .projectCard {
+        margin-top: 10%;
+        width: 100%;
+    }
+
+    
+    .project1Image {
+        width: 95%;
+        height: 95%;
+        margin: 2%;
+    }
+
+    .goSomewhereButton {
+        width: 80%;
+        height: 10%;
+        margin: 5%;
+    }
 }
