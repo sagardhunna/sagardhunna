@@ -6,6 +6,7 @@ import About from './pages/About'
 import Home from './pages/Home'
 import Header from './components/header/Header'
 import NoPage from './pages/NoPage'
+import ApiCall from './pages/apiCall'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -17,6 +18,7 @@ function App() {
         <Route index element={<Home />} />
         <Route path="/home" element={<Home />} />
         <Route path="/about" element={<About />} />
+        <Route path="/api-call" element={<ApiCall />} />
         <Route path="*" element={<NoPage />} />
       </Routes>
     </Router>

@@ -1,0 +1,50 @@
+.api-call-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 80vh;
+}
+
+
+
+.img-button-container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    height: 90%;
+    align-items: center;
+    background-color: #93BFCF;
+    border: solid;
+    gap: 0%;
+}
+
+
+.images {
+    display: flex;
+    flex-direction: row;
+    gap: 5%;
+    margin-top: 5%;
+    width: 80%;
+    height: 80%;
+}
+
+.goSomewhereButton {
+    width: 50%;
+    flex-grow: 1; /* Allow it to take up remaining space */
+    min-height: 10%;
+    background-color: #EEE9DA;    
+    text-shadow: none;
+    margin-top: -1%;
+    margin-bottom: 2%;
+    font-size: 1.5rem;
+}
+
+.api-image {
+    width: 100%;
+    height: 90%;
+    background-color: yellow;
+    border: solid;
+    pointer-events: none;
+    object-fit: cover;
+}
