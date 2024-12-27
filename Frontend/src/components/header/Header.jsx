@@ -17,7 +17,6 @@ const Header = () => {
                         <Nav className="ms-auto">
                             <Nav.Link as={Link} to="/home" style={{color: 'white'}}>Home</Nav.Link> {/* Link to Home */}
                             <Nav.Link as={Link} to="/about" style={{color: 'white'}}>About Me</Nav.Link> {/* Link to About */}
-                            <Nav.Link as={Link} to="/contact" style={{color: 'white'}}>Contact Me</Nav.Link> {/* Link to Contact */}
                             <Nav.Link href="/assets/Sagar_Dhunna_Resume.pdf" target="_blank" rel="noopener noreferrer" style={{color: 'white'}}>My Resume</Nav.Link> {/* Resume link */}
                             {/* important things to add when adding a link 
                             target=”_blank” ensures that the pdf is opened in a new tab
