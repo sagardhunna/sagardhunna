@@ -14,10 +14,14 @@
 }
 
 .card {
+    display: flex;
+    flex-direction: column;
     width: 18rem;
-    height: 25rem;
+    height: auto;
     background-color: #93BFCF;
     border: solid;
+    align-items: center;
+
 }
 
 .school-img {
@@ -54,8 +58,20 @@
     font-size: 1.25rem;
 }
 
+
 @media screen and (max-width: 1100px) {
     .card {
         margin: 5%;
+        height: auto;
+    }
+
+    .card-text {
+        width: 130%;
+    }
+
+    .card-body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
     }
 }

@@ -12,6 +12,7 @@ const EducationCards = () => {
                     <Card.Title className='card-title'>John F. Kennedy High School</Card.Title>
                     <Card.Text className='card-text'>
                         Attended: Aug. 2018 - May 2022
+                        <br/>
                         Degree: High School Diploma
                     </Card.Text>
                 </Card.Body>
@@ -53,6 +54,7 @@ const EducationCards = () => {
                     <Card.Title className='card-title'>University of California, Irvine</Card.Title>
                     <Card.Text className='card-text'>
                         Attended: Sep. 2024 - Current
+                        <br/>   
                         Degree: B.S. Computer Science
                     </Card.Text>
                 </Card.Body>
