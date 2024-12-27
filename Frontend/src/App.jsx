@@ -6,7 +6,7 @@ import About from './pages/About'
 import Home from './pages/Home'
 import Header from './components/header/Header'
 import NoPage from './pages/NoPage'
-import ApiCall from './pages/apiCall'
+import ApiCall from './pages/ApiCall'
 
 function App() {
   const [count, setCount] = useState(0)
