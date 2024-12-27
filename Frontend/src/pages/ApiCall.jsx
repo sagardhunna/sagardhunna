@@ -22,7 +22,7 @@ function ApiCall() {
                         />
                     </div>
 
-                    <Button className='goSomewhereButton border border-dark border-2' variant='light'>Find new images!</Button>
+                    <Button className='goSomewhereButton border border-dark border-2' variant='light' style={{fontSize: '1.5rem'}}>Find new images!</Button>
                 </div>
             </div>
         </div>
