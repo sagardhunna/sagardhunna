@@ -12,8 +12,9 @@ const client = createClient(PEXELS_API_KEY);
 
 const query = 'Ocean';
 
-
-
+const changeImages = () => {
+    console.log("Button worked");
+};
 
 app.get("/api/home", async (req, res) => {
     try {
