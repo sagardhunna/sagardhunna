@@ -15,7 +15,7 @@ function ApiCall() {
     const fetchImages = () => {
         console.log("Button was pressed")
         setButtonPressed(true);
-        fetch("https://sagardhunna.onrender.com/api/home") // connects to backend server to see what is it outputting
+        fetch("https://sagardhunna.onrender.com/api/home") // connects to backend to see what is it outputting
             .then(response => response.json() // converts response to json
             ).then(data => { // gets the data
                 setImage1(data.image1); /* Sets the value of image1 to data.message because data that we are retrieving is the message key */
@@ -31,7 +31,7 @@ function ApiCall() {
         <div>
             <h1 style={{ fontSize: '5rem', margin: '1%' }}>Test API Call</h1>
             <div className='api-call-container'>
-            {!buttonPressed && <h1 style={{fontSize: '2rem', marginTop: '-3%'}}>Press Find New Images!</h1>}
+            {!buttonPressed && <h1 style={{fontSize: '2rem', marginTop: '-3%'}}>Press Find New Images!</h1>} {/* will disappear after first button press */}
                 <div className="img-button-container rounded">
                     <div className='images'>
                         <Card.Img

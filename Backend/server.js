@@ -1,10 +1,10 @@
 const express = require("express");
 const app = express();
 const cors = require("cors");
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 8080; // sets port to 8080 for local developing, but is dynamically set by render when it is deploying
 const { createClient } = require("pexels");
 
-app.use(cors());
+app.use(cors()); // allows us to have backend and frontend on different ports 
 
 const PEXELS_API_KEY = "VHPvMqTtlEgdotvIpQzDNmkv8iWk4brlClpNacMp3M98fbZ5bwhVFyC1";
 
@@ -12,9 +12,6 @@ const client = createClient(PEXELS_API_KEY);
 
 const query = 'Ocean';
 
-const changeImages = () => {
-    console.log("Button worked");
-};
 
 app.get("/api/home", async (req, res) => {
     try {
