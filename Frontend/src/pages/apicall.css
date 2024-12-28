@@ -46,3 +46,18 @@
     pointer-events: none;
     object-fit: cover;
 }
+
+@media screen and (max-width: 600px) {
+    .image2 {
+        display: none;
+    }
+
+    .image1 {
+        width: 100%;
+        margin-top: 5%;
+    }
+    
+    .goSomewhereButton {
+        margin-bottom: 5%;
+    }
+}

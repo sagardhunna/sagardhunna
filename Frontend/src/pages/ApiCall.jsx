@@ -29,12 +29,12 @@ function ApiCall() {
                 <div className="img-button-container rounded">
                     <div className='images'>
                         <Card.Img
-                            className='api-image rounded'
+                            className='api-image rounded image1'
                             variant="top"
                             src={image1}
                         />
                         <Card.Img
-                            className='api-image rounded'
+                            className='api-image rounded image2'
                             variant="top"
                             src={image2}
                         />
