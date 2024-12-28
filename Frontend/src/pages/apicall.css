@@ -40,9 +40,8 @@
 }
 
 .api-image {
-    width: 100%;
+    width: 50%;
     height: 90%;
-    background-color: yellow;
     border: solid;
     pointer-events: none;
     object-fit: cover;
