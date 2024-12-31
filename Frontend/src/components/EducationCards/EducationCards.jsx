@@ -19,7 +19,7 @@ const EducationCards = () => {
             </Card>
 
             <Card.Img
-                className=' d-none d-lg-block' /* makes arrow disappear on mobile */
+                className='d-none d-lg-block arrow' /* makes arrow disappear on mobile */
                 variant="top"
                 src="/assets/rightArrow.png"
                 style={{ width: '10%', height: '10%', marginTop: '25%' }}
@@ -41,7 +41,7 @@ const EducationCards = () => {
                 </Card.Body>
             </Card>
 
-            <Card.Img className='flipped-arrow d-none d-lg-block'
+            <Card.Img className='flipped-arrow d-none d-lg-block arrow'
                 variant="top"
                 src="/assets/rightArrow.png"
                 style={{ width: '10%', height: '10%' }}

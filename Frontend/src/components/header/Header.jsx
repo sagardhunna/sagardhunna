@@ -15,7 +15,6 @@ const Header = () => {
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
                         <Nav className="ms-auto">
-                            <Nav.Link as={Link} to="/home" style={{color: 'white'}}>Home</Nav.Link> {/* Link to Home */}
                             <Nav.Link as={Link} to="/about" style={{color: 'white'}}>About Me</Nav.Link> {/* Link to About */}
                             <Nav.Link href="/assets/Sagar_Dhunna_Resume.pdf" target="_blank" rel="noopener noreferrer" style={{color: 'white'}}>My Resume</Nav.Link> {/* Resume link */}
                             <Nav.Link as={Link} to="/api-call" style={{color: 'white'}}>Test API Call</Nav.Link> {/* Link to Api Call */}

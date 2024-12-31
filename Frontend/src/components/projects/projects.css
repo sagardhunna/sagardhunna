@@ -19,6 +19,7 @@
     margin-bottom: 3%;
     background-color: #EEE9DA;    
     text-shadow: none;
+
 }
 
 .project1Image {
@@ -28,6 +29,7 @@
     height: 100%;
     margin-top: -5%;
     pointer-events: none; /* prevents anyone from dragging my images */
+    margin-bottom: 5%;
 }
 
 .container {
@@ -49,6 +51,16 @@
     margin-top: 3%;
 }
 
+.goSomewhereButton > p {
+    margin-bottom: 0%;
+}
+
+@media screen and (min-width: 601px) and (max-width: 901px) {
+    .goSomewhereButton > p {
+        font-size: 2vw !important; /* overwrites the font-size code for a button that bootstrap provides us with */
+    }
+
+}
 
 
 @media screen and (max-width: 600px) { /* when the width gets smaller, give a margin of 10% all around */
@@ -83,6 +95,11 @@
 
     .container {
         margin-top: -5%;
+        margin-bottom: 5%;
+    }
+
+    .goSomewhereButton > p {
+        font-size: 4vw;
     }
 
 }

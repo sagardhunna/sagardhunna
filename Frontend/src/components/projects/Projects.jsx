@@ -18,7 +18,9 @@ const Projects = () => {
                         />
                     </div>
                 </div>
-                <Button className='goSomewhereButton border border-dark border-2' variant='light'>Github.com/RemindMe</Button>
+                <Button className='goSomewhereButton border border-dark border-2' variant='light'>
+                    <p>Github.com/RemindMe</p>
+                    </Button>
             </div>
 
             <div className='card-styling rounded projectCard'>
@@ -32,7 +34,9 @@ const Projects = () => {
                         />
                     </div>
                 </div>
-                <Button className='goSomewhereButton border border-dark border-2' variant='light'>Github.com/InProgress...</Button>
+                <Button className='goSomewhereButton border border-dark border-2' variant='light'>
+                    <p>Github.com/InProgress...</p>
+                    </Button>
             </div>
         </div>
     )

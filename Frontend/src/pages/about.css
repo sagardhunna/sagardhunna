@@ -15,15 +15,29 @@
     1px 1px 0 #000;   /* Bottom-right */
     /* found the above off google to add shadow to my text */
   }
-  
-@media screen and (max-width: 600px) {
+
+
+
+
+@media screen and (max-width: 1100px) {
     .about-section {
-        margin-bottom: 40%;
+        margin-bottom: 10%;
     }
 }
 
-@media screen and (max-width: 400px) {
+
+
+@media screen and (max-width: 850px) {
     .about-section {
-        margin-bottom: 60%;
+        margin-bottom: 30%;
     }
 }
+
+@media screen and (max-width: 750px) {
+    .about-section {
+        margin-bottom: 50%;
+    }
+}
+
+
+
