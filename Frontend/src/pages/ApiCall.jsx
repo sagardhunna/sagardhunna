@@ -16,15 +16,14 @@ function ApiCall() {
 
 
     const fetchImages = () => {
-        console.log("Button was pressed");
         setLoading(true);
         setButtonPressed(true);
         fetch("https://sagardhunna.onrender.com/api/home") // connects to backend to see what is it outputting
             .then(response => response.json() // converts response to json
             ).then(data => { // gets the data
-                setLoading(false);
                 setImage1(data.image1); /* Sets the value of image1 to data.message because data that we are retrieving is the message key */
                 setImage2(data.image2);
+                setLoading(false);
 
             }).catch(error => {
                 console.error("Error fetching data: ", error);
