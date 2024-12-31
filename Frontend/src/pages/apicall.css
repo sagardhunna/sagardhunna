@@ -50,6 +50,7 @@
     object-fit: cover;
 }
 
+
 @media screen and (max-width: 900px) {
     .image2 {
         display: none;
