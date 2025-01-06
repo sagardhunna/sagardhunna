@@ -24,3 +24,11 @@
     font-size: 1.25rem;
     padding: 0%;
 }
+
+@media screen and (max-width: 1126px) {
+    .video-text-container {
+        flex-direction: column;
+        height: 50%;
+    }
+
+}

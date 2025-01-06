@@ -1,6 +1,6 @@
 .about-me {
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: row;
     width: 80vw;
     height: 50vh;
     text-align: center;
@@ -25,43 +25,18 @@
     padding: 0%;
 }
 
-/* the following code is really bad, can do some work to adjust it but will do that later on as I need to work on another project */
-
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1125px) {
     .about-me {
-        flex-direction: row;
-        align-items: center;
-        width: 95vw;
-        margin-bottom: 40%;
+        flex-direction: column;
+        height: auto;
+        gap: 1rem;
     }
-    .about-info {
-        width: 100%;
-    }
+    
     .personal-image {
         width: 100%;
     }
-}
-
-@media screen and (max-width: 750px) {
-    .about-me {
-        margin-bottom: 20%;
-    }
-}
-
-@media screen and (max-width: 600px) {
-    .about-me {
-        margin-bottom: 70%;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    .about-me {
-        margin-bottom: 115%;
-    }
-}
-
-@media screen and (max-width: 400px) {
-    .about-me {
-        margin-bottom: 130%;
+    
+    .about-info {
+        width: 100%;
     }
 }
