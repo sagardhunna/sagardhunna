@@ -16,6 +16,10 @@ const ProjectInfo = () => {
                     <p>Overtime I learned how to use documentation and other resources like Youtube and Stackoverflow to 
                         debug my code, and that exponentially increased the progress that I was making when developing this app.
                     </p>
+                    <p>
+                        I also learned that I cannot implement User Notifications through IOS unless I get the Apple Developer Membership 
+                        for $99 unfortunately, so to work around that I will only implement email notifications.
+                    </p>
                 </p>
             </Card>
 
