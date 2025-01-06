@@ -2,6 +2,7 @@ import React from 'react';
 import "./projects.css";
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
+import { Link } from 'react-router-dom';  // to link to the other pages
 
 
 const Projects = () => {
@@ -18,8 +19,8 @@ const Projects = () => {
                         />
                     </div>
                 </div>
-                <Button className='goSomewhereButton border border-dark border-2' variant='light'>
-                    <p>Github.com/RemindMe</p>
+                <Button className='goSomewhereButton border border-dark border-2' variant='light' as={Link} to="/Remind-Me">
+                    <p>Learn More!</p>
                     </Button>
             </div>
 

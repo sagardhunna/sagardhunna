@@ -1,0 +1,19 @@
+.info-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 90vw;
+    height: 60vh;
+    margin-top: 3%;
+    gap: 5%;
+}
+
+.info-text-box {
+    width: 100%;
+    height: auto;
+    background-color: #93BFCF;
+    border: solid;
+    font-family: LemandsBold, sans-serif;
+    font-size: 1.25rem;
+    padding: 0%;
+}

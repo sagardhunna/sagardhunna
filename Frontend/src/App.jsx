@@ -7,6 +7,7 @@ import Home from './pages/Home'
 import Header from './components/header/Header'
 import NoPage from './pages/NoPage'
 import ApiCall from './pages/ApiCall'
+import RemindMe from './pages/RemindMe'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -19,6 +20,7 @@ function App() {
         <Route path="/home" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/api-call" element={<ApiCall />} />
+        <Route path="/Remind-Me" element={<RemindMe />} />
         <Route path="*" element={<NoPage />} />
       </Routes>
     </Router>
