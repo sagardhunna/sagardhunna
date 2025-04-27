@@ -30,13 +30,13 @@ const Projects = () => {
                     <div className='project1Image'>
                         <Card.Img
                             variant="top"
-                            src="/assets/question-mark.jpg"
+                            src="/assets/wardrobeWizard.jpg"
                             style={{ width: '100%', height: '100%' }}
                         />
                     </div>
                 </div>
                 <Button className='goSomewhereButton border border-dark border-2' variant='light'>
-                    <p>Github.com/InProgress...</p>
+                    <p>Wardrobe Wizard</p>
                     </Button>
             </div>
         </div>
